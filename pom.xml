@@ -36,18 +36,19 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
+		<!-- Local Database -->
 <!--		<dependency>-->
 <!--			<groupId>mysql</groupId>-->
 <!--			<artifactId>mysql-connector-java</artifactId>-->
 <!--		</dependency>-->
 
+		<!-- For Production -->
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-
+		<!-- Production END -->
 		<dependency>
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger2</artifactId>
