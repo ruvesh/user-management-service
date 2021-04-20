@@ -8,6 +8,6 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface UserRepository extends JpaRepository<User, String> {
 
-    @Query("SELECT user.privilege FROM User user WHERE user.email= :email")
+    @Query("SELECT users.privilege FROM User users WHERE users.email= :email")
     String getPrivilegeByEmail(String email);
 }
