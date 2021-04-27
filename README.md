@@ -20,5 +20,5 @@ REST API Microservice
 
 ## Deployment
 * Deployed through git pipeline on Heroku
-  
-    https://user-management-svc.herokuapp.com/
+
+  https://user-management-svc.herokuapp.com/user-management/swagger-ui.html
